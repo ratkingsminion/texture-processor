@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd94401fe713cd142a26c838ef7e2e0d, type: 3}
+  m_Name: TEX Example 1 - as own file
+  m_EditorClassIdentifier: 
+  saveAsExtraFile: 1
+  sourceTexture: {fileID: 2800000, guid: ab24f12742671e947b893b9d538ddef0, type: 3}
+  result: {fileID: 2800000, guid: e989dba90b055d74d805e8604c71572c, type: 3}
+  brightness: 0.18
+  contrast: 0.28
+  gamma: 1
+  saturation: 0.08
+  red: -0.34
+  green: -0.41
+  blue: 0.13
+  width: 64
+  height: 64
+  resizeMethod: 1
