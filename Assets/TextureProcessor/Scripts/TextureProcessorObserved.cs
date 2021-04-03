@@ -14,7 +14,9 @@ namespace RatKing {
 		void OnValidate() {
 			var e = Event.current;
 			if (e != null && (e.type == EventType.ExecuteCommand || e.type == EventType.Used) && e.commandName == "Duplicate") {
-				Debug.LogError("Only one TextureProcessorObserved asset per project supported!");
+				if (UnityEditor.Selection.activeObject is TextureProcessorObserved) {
+					Debug.LogWarning("Only one TextureProcessorObserved asset per project supported!");
+				}
 			}
 		}
 
